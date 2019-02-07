@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="supportwriting.css">
+	<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+	<script type="text/javascript" src="enroll.js">
+		enroll();
+	</script>
+</head>
+<body>
+<!-- Links to the Google Sheet with interview questions -->
+	<div class="questions">Here is the link to the <b><a href="https://docs.google.com/spreadsheets/d/1HRIdWMbqBIvW2O1edsxzJPrCfv-WCNftiLBfZWcCXYY/edit?usp=sharing">Interview Questions template</a></b>, please make a copy of the sheet and share it with everyone in the interview. <b>Note: On the new sheet you will need to go to the "Questions" tab and allow it to access the questions.</b></div>
+	<hr>
+<!-- Input tht creates the user and enrolls them into the writing course -->
+	<div class="writing">
+		<div class="desciption">
+			<p>To enroll a user in the <b><a href="https://supportwriting.instructure.com/courses/161">Support Writing</a></b> class please insert the user's first and last name into the following fields.</p>
+		</div>
+		<div class="input">
+			<form>
+				First Name:<br>
+				<input type="text" id="firstname"><br>
+				Last Name:<br>
+				<input type="text" id="lastname">
+			</form>
+			<button onclick="enroll()">Enroll User</button>
+			<div id="created" class="Output"></div>
+			<div id="enrolled" class="Output"></div>
+			<div id="useroutput" class="Output"></div>
+            <div id="passoutput" class="Output"></div>
+            <div id="error" class="Output"></div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+	body {
+		font: x-large "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 16px;
+		background-color: #white;
+		color: #485366;
+	}
+
+	a:link, a:visited, a:hover, a:active {
+		color: #485366;
+	}
+
+	hr {
+	    border: 0;
+	    height: 3px;
+	    background: #485366;
+	}
+
+	button {
+		border: 0;
+		margin: 0 0 10px 0;
+	    padding: 10px;
+	    background: #485366;
+	    color: white;
+	    font-size: 16px;
+	}
+
+	button:hover {
+	    background-color: #353f4f;
+	    cursor: pointer;
+	}	
+
+	input {
+		font-size: 16px;
+		color: #485366;
+		font: x-large "LatoWeb", "Helvetica Neue", Helvetica, Arial, sans-serif;
+		margin: 10px 0 10px 0;
+	}
+
+	.questions {
+		margin: 10px 0 10px 0;
+	}
+
+	.input {
+	    font-size: 16px;
+	    border: 1px solid #485366;
+	    padding: 12px 20px 12px 40px;
+	    color: #485366;
+	    background-color: white;
+	}
+
+	#output {
+		margin: 10px 0 10px 0;
+	}
