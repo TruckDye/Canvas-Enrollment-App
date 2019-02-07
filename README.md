@@ -1,5 +1,7 @@
 # Canvas-Enrollment-App
 
+This app will create a user and enroll them in a writting assessement course for testing new Canvas Support applicants.
+
 Heroku Install Instructions 
 assume Heroku CLI is installed
 
